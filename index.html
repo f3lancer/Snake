@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="section snake">
+        <h1 class="snake-title">Snake</h1>
+        <div class="snake-body">
+            <h2 class="body-score">score: <span></span></h2>
+        </div>
+        <div class="snake-footer">
+            <div class="footer-button">
+                <button type="button" id="restart">restart</button>
+                <button type="button" id="pause">pause</button>
+            </div>
+            <div class="result">
+                <div class="result-table speed"> 
+                    <label for="speed">speed</label>
+                    <div class="label" id="speed" style="--speed-width:0%">
+                        <p class="score-number">10</p>
+                    </div> 
+                </div> 
+                <div class="result-table cells"> 
+                    <label for="cells">cells</label>
+                    <div class="label" id="cells" style="--cells-width:0%">
+                        <p class="score-number">10</p>
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
