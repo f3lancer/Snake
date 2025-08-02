@@ -70,7 +70,7 @@ console.log(game);
 const result = (d) =>{
     clearInterval(game.go);
     document.addEventListener('DOMContentLoaded', () => {
-        // Ваш код тут
+        
         const container = document.querySelector(`.${game.container}`);  
         let div = document.createElement('div')
         div.className = 'game-over'
